@@ -1,5 +1,7 @@
 def run_guessing_game
   input = gets.chomp
-  number = 
-  if input == 
+  number = rand(1..100)
+  if input == number
+    puts "You guessed the correct number!"
+  end  
 end
